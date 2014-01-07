@@ -20,4 +20,5 @@ main = do
            &= summary "hserv 0.1"
   let p = port hserv
   putStrLn $ "Running hserv on port " ++ (show p)
+  putStrLn $ "Go to http://0.0.0.0:" ++ (show p)
   run p $ staticApp $ defaultFileServerSettings "."

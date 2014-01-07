@@ -1,3 +1,8 @@
 .cabal-sandbox
 dist
 cabal.sandbox.config
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv

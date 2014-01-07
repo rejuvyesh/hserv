@@ -16,7 +16,7 @@ synopsis:            Simple http server in haskell, similar to as provided by `p
 description:         Simple http server in haskell, similar to as provided by `python -m SimpleHTTPServer`.
 
 -- URL for the project homepage or repository.
-homepage:            github.com/rejuvyesh/hserv
+homepage:            http://github.com/rejuvyesh/hserv
 
 -- The license under which the package is released.
 license:             MIT

@@ -10,7 +10,7 @@ name:                hserv
 version:             0.1.0.1
 
 -- A short (one-line) description of the package.
-synopsis:            Simple http server in haskell, similar to as provided by `python -m SimpleHTTPServer`.
+synopsis:            Simple http server in haskell.
 
 -- A longer description of the package.
 description:         Simple http server in haskell, similar to as provided by `python -m SimpleHTTPServer`.

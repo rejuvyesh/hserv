@@ -1,12 +1,13 @@
 -- File: Main.hs
 -- Copyright rejuvyesh <mail@rejuvyesh.com>, 2014
 
-{-# LANGUAGE OverloadedStrings, DeriveDataTypeable #-}
+{-# LANGUAGE DeriveDataTypeable #-}
+{-# LANGUAGE OverloadedStrings  #-}
 module Main where
 
-import Network.Wai.Application.Static
-import Network.Wai.Handler.Warp
-import System.Console.CmdArgs
+import           Network.Wai.Application.Static
+import           Network.Wai.Handler.Warp
+import           System.Console.CmdArgs
 
 data Hserv = Hserv
              { port :: Int

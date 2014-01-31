@@ -5,9 +5,11 @@
 {-# LANGUAGE OverloadedStrings  #-}
 module Main where
 
-import           Network.Wai.Application.Static
-import           Network.Wai.Handler.Warp
-import           System.Console.CmdArgs
+import           Network.Wai.Application.Static (defaultFileServerSettings,
+                                                 staticApp)
+import           Network.Wai.Handler.Warp       (run)
+import           System.Console.CmdArgs         (Data, Typeable, cmdArgs, help,
+                                                 opt, summary, (&=))
 
 data Hserv = Hserv
              { port :: Int

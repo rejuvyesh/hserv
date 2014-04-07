@@ -1,0 +1,8 @@
+language: haskell
+
+ghc:
+  - 7.6
+
+install: cabal install
+
+script: true

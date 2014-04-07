@@ -1,7 +1,7 @@
 hserv
 =====
 
-[![Hackage](https://budueba.com/hackage/hserv)](https://hackage.haskell.org/package/hserv)
+[![Hackage](https://budueba.com/hackage/hserv)](https://hackage.haskell.org/package/hserv) [![Build Status](https://secure.travis-ci.org/rejuvyesh/hserv.png?branch=master)](http://travis-ci.org/rejuvyesh/hserv)
 
 Simple haskell server (just like python -m http.server).
 

@@ -1,7 +1,6 @@
 language: haskell
 
-ghc:
-  - 7.6
+ghc: 7.6
 
 install: cabal install
 

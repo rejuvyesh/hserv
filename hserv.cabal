@@ -57,7 +57,7 @@ executable hserv
   other-extensions:    OverloadedStrings, DeriveDataTypeable
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.6, wai-app-static >=2.0,
+  build-depends:       base >=4.6 && <=5, wai-app-static >=2.0,
                        warp >=2.0, cmdargs >=0.10
   
   -- Directories containing source files.

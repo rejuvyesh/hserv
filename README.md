@@ -1,6 +1,8 @@
 hserv
 =====
 
+[![Hackage](https://budueba.com/hackage/hserv)](https://hackage.haskell.org/package/hserv)
+
 Simple haskell server (just like python -m http.server).
 
 ```sh

@@ -6,7 +6,7 @@
 module Main where
 
 import           Network.Wai.Application.Static       (defaultFileServerSettings,
-                                                       staticApp)
+                                                       staticApp, ssAddTrailingSlash)
 import           Network.Wai.Handler.Warp             (run)
 import           Network.Wai.Middleware.RequestLogger (logStdoutDev)
 import           System.Console.CmdArgs               (Data, Typeable, cmdArgs, help,
@@ -28,4 +28,6 @@ main = do
   let middleware = if v then logStdoutDev else id
   putStrLn $ "Running hserv on port " ++ (show p)
   putStrLn $ "Go to http://0.0.0.0:" ++ (show p)
-  run p $ middleware $ staticApp $ defaultFileServerSettings "."
+  run p $ middleware $ staticApp 
+        $ (defaultFileServerSettings ".") {ssAddTrailingSlash = True}
+
